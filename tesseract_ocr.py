@@ -12,7 +12,7 @@ import os
 # 	help="type of preprocessing to be done")
 # args = vars(ap.parse_args())
 
-args = {'image':'images\\dove_soap\\1c0a3811-0f99-4f69-b132-89d7908c6aa2_175283976a62ffad1836ba0f9cd2bb950.jpeg'}
+args = {'image':'images\\dove_soap\\0.jpeg'}
 filename = args['image']    
 # load the example image and convert it to grayscale
 image = cv2.imread(args["image"])
